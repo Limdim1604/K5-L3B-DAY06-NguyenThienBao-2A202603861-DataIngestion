@@ -1,4 +1,67 @@
-# Day 06 · Data Ingestion Engineering
+# Bài nộp Day 06 — Nguyễn Thiên Bảo (2A202603861)
+
+Pipeline ingestion và benchmark truy xuất trên **Luật An toàn thông tin mạng 2015** và **Luật An ninh mạng 2018** (47 trang nội dung). Ba cấu hình được so sánh: A chunk cố định, B chunk theo Điều/khoản, C là B kèm filter `year`. Embedding dùng `intfloat/multilingual-e5-base` (local, 768 chiều), lưu và truy xuất bằng PostgreSQL + pgvector. Báo cáo: [report/individual/2A202603861_NguyenThienBao.md](report/individual/2A202603861_NguyenThienBao.md).
+
+| | Hit@1 dev | Hit@3 dev | Hit@1 test | Hit@3 test | Coherence /2 | Grounding /2 |
+|---|---|---|---|---|---|---|
+| A | 10/16 | 11/16 | 0/6 | 3/6 | 1,00 | 1,67 |
+| B | 11/16 | 14/16 | 6/6 | 6/6 | 2,00 | 2,00 |
+| **C (chọn trên dev)** | 12/16 | 15/16 | 6/6 | 6/6 | 2,00 | 2,00 |
+
+### Cài đặt
+
+Yêu cầu: Docker Desktop, Python 3.11–3.14. GPU là tùy chọn; nếu không có, model tự chạy trên CPU. Chạy các lệnh từ thư mục `starter/` (Windows PowerShell):
+
+```powershell
+cd starter
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+# GPU CUDA 12.8 (máy tác giả): python -m pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
+Copy-Item .env.example .env          # đặt EMBEDDING_MODEL=intfloat/multilingual-e5-base (để trống cũng dùng model này)
+docker compose -p day6_student_starter up -d --wait
+python scripts/check_setup.py        # kỳ vọng: Setup OK
+```
+
+Lần chạy đầu sẽ tải model e5 (~1,1 GB) từ Hugging Face, không cần API key, chi phí 0.
+
+### Chạy lại toàn bộ (từ `starter/`)
+
+```powershell
+python scripts/build_manifest.py     # data/manifest.json: trang, ký tự, SHA-256, giấy phép
+python -m src.ingestion              # results/pages.jsonl, results/ingest_log.json
+python -m src.chunking               # results/chunks_A|B.jsonl, results/chunk_stats.json
+python scripts/verify_benchmark.py   # benchmark/verification.json (kiểm chứng evidence, khóa SHA-256)
+python -m src.index                  # nạp 3 index A/B/C vào pgvector, results/index_log.json (chạy lại không nhân đôi)
+python scripts/test_store.py         # kiểm thử nạp lại, tài liệu thay đổi, filter -> results/store_test.json
+python -m src.run --phase dev        # trace + chỉ số dev, chọn cấu hình -> results/selection.json
+python -m src.run --phase test       # trace + chỉ số test với lựa chọn đã khóa -> results/metrics.json
+python scripts/build_audit.py        # bảng nhãn thủ công + tổng hợp từ results/manual_labels.json
+python scripts/rescore_traces.py     # (chỉ khi sửa gold) chấm lại trace đã lưu, không truy xuất lại -> results/rescore_log.json
+```
+
+Bộ câu hỏi đã được sửa gold một lần **sau khi đánh giá**: mở rộng evidence của q09 và q13, chỉ số không đổi. Xem [benchmark/CHANGELOG.md](benchmark/CHANGELOG.md).
+
+Lưu ý: `--phase dev` từ chối ghi đè `selection.json` sau khi test đã được đánh giá. Muốn chạy lại từ đầu thì xóa `results/selection.json` trước.
+
+### Cấu trúc bài nộp
+
+```text
+STUDENT.md                          thông tin học viên
+data/manifest.json, data/raw/       2 PDF nguồn + manifest (nguồn, giấy phép, trang tính, SHA-256)
+benchmark/                          22 câu (16 dev/6 test), README thiết kế + tiêu chí chọn, verification.json
+artifacts/experiment_log.csv        cấu hình, giả thuyết và kết quả A/B/C
+starter/src/                        pipeline: ingestion, chunking, embeddings, store, index, evaluation, run
+starter/scripts/                    manifest, kiểm chứng benchmark, kiểm thử store, build audit
+results/                            log ingest/index, chunk stats, trace top-3, metrics, selection, nhãn audit
+report/individual/2A202603861_NguyenThienBao.md
+```
+
+Đường dẫn dữ liệu: PDF nằm ở `data/raw/`; manifest ghi URL gốc để tải lại. Không commit `.env` hay `.venv`.
+
+---
+
+# Đề bài gốc — Day 06 · Data Ingestion Engineering
 
 **Lab cá nhân** · **4 giờ** · **Dữ liệu tự chọn**
 

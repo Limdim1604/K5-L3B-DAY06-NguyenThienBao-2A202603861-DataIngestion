@@ -1,0 +1,51 @@
+{
+  "documents": [
+    {
+      "document_id": "attt-2015",
+      "physical_pages": 24,
+      "kept_pages": 24,
+      "raw_chars": 61245,
+      "normalized_chars": 60346,
+      "articles_detected": 54,
+      "chapters_detected": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V",
+        "VI",
+        "VII",
+        "VIII"
+      ]
+    },
+    {
+      "document_id": "anm-2018",
+      "physical_pages": 24,
+      "kept_pages": 23,
+      "raw_chars": 63294,
+      "normalized_chars": 62410,
+      "articles_detected": 43,
+      "chapters_detected": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V",
+        "VI",
+        "VII"
+      ]
+    }
+  ],
+  "errors": [],
+  "empty_pages": [],
+  "excluded_pages": [
+    {
+      "document_id": "anm-2018",
+      "page": 24,
+      "reason": "Chỉ có chức danh và chữ ký Chủ tịch Quốc hội, không có nội dung điều luật."
+    }
+  ],
+  "warnings": [],
+  "kept_pages_total": 47,
+  "seconds": 1.213
+}

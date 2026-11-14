@@ -1,0 +1,77 @@
+{
+  "checks": [
+    {
+      "check": "first ingest {'inserted': 102, 'updated': 0, 'unchanged': 0, 'deleted': 0}",
+      "passed": true
+    },
+    {
+      "check": "unchanged re-ingest {'inserted': 0, 'updated': 0, 'unchanged': 102, 'deleted': 0}",
+      "passed": true
+    },
+    {
+      "check": "changed document re-ingest {'inserted': 1, 'updated': 1, 'unchanged': 100, 'deleted': 1}",
+      "passed": true
+    },
+    {
+      "check": "obsolete chunk attt-2015-p02-000 removed",
+      "passed": true
+    },
+    {
+      "check": "filter year=2015 returns only 2015",
+      "passed": true
+    },
+    {
+      "check": "filter year=2018 returns only 2018",
+      "passed": true
+    },
+    {
+      "check": "unknown filter key rejected",
+      "passed": true
+    }
+  ],
+  "search_sample": {
+    "query": "Luật có hiệu lực thi hành từ ngày nào?",
+    "unfiltered": [
+      [
+        "attt-2015-p24-001",
+        0.8852
+      ],
+      [
+        "anm-2018-p23-003",
+        0.8717
+      ],
+      [
+        "anm-2018-p23-004",
+        0.8491
+      ]
+    ],
+    "year_2015": [
+      [
+        "attt-2015-p24-001",
+        0.8852
+      ],
+      [
+        "attt-2015-p24-002",
+        0.8224
+      ],
+      [
+        "attt-2015-p01-002",
+        0.8192
+      ]
+    ],
+    "year_2018": [
+      [
+        "anm-2018-p23-003",
+        0.8717
+      ],
+      [
+        "anm-2018-p23-004",
+        0.8491
+      ],
+      [
+        "anm-2018-p01-000",
+        0.8197
+      ]
+    ]
+  }
+}

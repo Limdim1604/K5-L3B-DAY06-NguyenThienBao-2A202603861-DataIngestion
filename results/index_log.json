@@ -1,0 +1,144 @@
+{
+  "runs": [
+    {
+      "started_at": "2026-11-14T03:29:28+00:00",
+      "embedder": {
+        "provider": "local sentence-transformers",
+        "model": "intfloat/multilingual-e5-base",
+        "revision": null,
+        "dimensions": 768,
+        "max_seq_length": 512,
+        "device": "cuda",
+        "normalize": true,
+        "query_prefix": "query: ",
+        "document_prefix": "passage: ",
+        "cost_usd": 0.0
+      },
+      "store": {
+        "postgresql": "16.16 (Debian 16.16-1.pgdg12+1)",
+        "pgvector": "0.8.7",
+        "table": "chunks",
+        "metric": "cosine (<=>)",
+        "search": "exact (no ANN index)"
+      },
+      "ingest_seconds": 1.236,
+      "pages": 47,
+      "strategies": {
+        "A": {
+          "chunks": 293,
+          "embedded": 293,
+          "reused_from_B": 0,
+          "inserted": 293,
+          "updated": 0,
+          "unchanged": 0,
+          "deleted": 0,
+          "rows_in_store": 293,
+          "chunk_seconds": 0.005,
+          "embed_seconds": 2.408,
+          "upsert_seconds": 0.336,
+          "cost_usd": 0.0
+        },
+        "B": {
+          "chunks": 204,
+          "embedded": 204,
+          "reused_from_B": 0,
+          "inserted": 204,
+          "updated": 0,
+          "unchanged": 0,
+          "deleted": 0,
+          "rows_in_store": 204,
+          "chunk_seconds": 0.008,
+          "embed_seconds": 1.943,
+          "upsert_seconds": 0.214,
+          "cost_usd": 0.0
+        },
+        "C": {
+          "chunks": 204,
+          "embedded": 0,
+          "reused_from_B": 204,
+          "inserted": 204,
+          "updated": 0,
+          "unchanged": 0,
+          "deleted": 0,
+          "rows_in_store": 204,
+          "chunk_seconds": 0.006,
+          "embed_seconds": 0.0,
+          "upsert_seconds": 0.236,
+          "cost_usd": 0.0
+        }
+      },
+      "total_seconds": 21.208,
+      "rows_total": 701
+    },
+    {
+      "started_at": "2026-11-14T03:30:03+00:00",
+      "embedder": {
+        "provider": "local sentence-transformers",
+        "model": "intfloat/multilingual-e5-base",
+        "revision": "d128750597153bb5987e10b1c3493a34e5a4502a",
+        "dimensions": 768,
+        "max_seq_length": 512,
+        "device": "cuda",
+        "normalize": true,
+        "query_prefix": "query: ",
+        "document_prefix": "passage: ",
+        "cost_usd": 0.0
+      },
+      "store": {
+        "postgresql": "16.16 (Debian 16.16-1.pgdg12+1)",
+        "pgvector": "0.8.7",
+        "table": "chunks",
+        "metric": "cosine (<=>)",
+        "search": "exact (no ANN index)"
+      },
+      "ingest_seconds": 1.222,
+      "pages": 47,
+      "strategies": {
+        "A": {
+          "chunks": 293,
+          "embedded": 0,
+          "reused_from_B": 0,
+          "inserted": 0,
+          "updated": 0,
+          "unchanged": 293,
+          "deleted": 0,
+          "rows_in_store": 293,
+          "chunk_seconds": 0.005,
+          "embed_seconds": 0.0,
+          "upsert_seconds": 0.063,
+          "cost_usd": 0.0
+        },
+        "B": {
+          "chunks": 204,
+          "embedded": 0,
+          "reused_from_B": 0,
+          "inserted": 0,
+          "updated": 0,
+          "unchanged": 204,
+          "deleted": 0,
+          "rows_in_store": 204,
+          "chunk_seconds": 0.005,
+          "embed_seconds": 0.0,
+          "upsert_seconds": 0.063,
+          "cost_usd": 0.0
+        },
+        "C": {
+          "chunks": 204,
+          "embedded": 0,
+          "reused_from_B": 0,
+          "inserted": 0,
+          "updated": 0,
+          "unchanged": 204,
+          "deleted": 0,
+          "rows_in_store": 204,
+          "chunk_seconds": 0.005,
+          "embed_seconds": 0.0,
+          "upsert_seconds": 0.061,
+          "cost_usd": 0.0
+        }
+      },
+      "total_seconds": 15.537,
+      "rows_total": 701
+    }
+  ]
+}

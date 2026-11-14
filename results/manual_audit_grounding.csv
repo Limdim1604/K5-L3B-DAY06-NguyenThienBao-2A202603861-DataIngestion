@@ -1,0 +1,19 @@
+﻿strategy,question,split,filter_applied,top3,auto_evidence_hit_at_3,score_0_2,out_of_scope_in_top3,reason
+A,q17,test,,anm-2018-p19-005 | anm-2018-p19-003 | anm-2018-p19-004,True,2,False,r2 (anm-2018 tr.19) chứa trọn khoản 1 Điều 29 liệt kê quyền của trẻ em.
+B,q17,test,,anm-2018-p19-002 | anm-2018-p19-003 | anm-2018-p20-000,True,2,False,r1 chứa tên Điều 29 và trọn khoản 1.
+C,q17,test,,anm-2018-p19-002 | anm-2018-p19-003 | anm-2018-p20-000,True,2,False,"Như B (câu không có filter, C chạy không lọc)."
+A,q18,test,,attt-2015-p07-003 | attt-2015-p07-002 | attt-2015-p07-004,False,2,False,"Không chunk nào tự chứa trọn evidence (Hit@3 tự động = 0) nhưng r1 có chủ thể + điều kiện chính và r3 có phần còn lại ('và thông báo... trừ trường hợp pháp luật có quy định khác'), hai chunk cùng trang 7 nối liền nhau nhờ overlap nên ghép lại đủ."
+B,q18,test,,attt-2015-p07-002 | attt-2015-p07-001 | attt-2015-p06-004,True,2,False,"r1 chứa trọn khoản 3 Điều 18 gồm điều kiện, nghĩa vụ thông báo và ngoại lệ."
+C,q18,test,,attt-2015-p07-002 | attt-2015-p07-001 | attt-2015-p06-004,True,2,False,Như B.
+A,q19,test,,anm-2018-p11-002 | anm-2018-p18-004 | anm-2018-p22-005,False,0,False,"Top-3 là Điều 16 khoản 7-9, Điều 26 khoản 2-3 và phần cuối Điều 40 + câu dẫn Điều 41; không chunk nào có nghĩa vụ khi lộ, lọt dữ liệu (điểm c khoản 1 Điều 41 ở trang 23)."
+B,q19,test,,anm-2018-p23-000 | anm-2018-p22-004 | anm-2018-p23-001,True,2,False,"r1 (tiền tố Điều 41) chứa điểm c): lập tức đưa ra giải pháp ứng phó, thông báo người sử dụng và báo cáo lực lượng chuyên trách."
+C,q19,test,,anm-2018-p23-000 | anm-2018-p22-004 | anm-2018-p23-001,True,2,False,Như B.
+A,q20,test,,attt-2015-p09-003 | attt-2015-p09-004 | anm-2018-p08-002,True,2,False,"r2 chứa điểm b) khoản 1 Điều 27 (định kỳ đánh giá, do tổ chức chuyên môn được chỉ định); chủ thể 'Chủ quản hệ thống thông tin quan trọng quốc gia' nằm ở cuối r1 liền kề."
+B,q20,test,,attt-2015-p09-003 | anm-2018-p09-001 | attt-2015-p10-000,True,2,False,r1 chứa trọn khoản 1 Điều 27 kèm tên Điều.
+C,q20,test,,attt-2015-p09-003 | anm-2018-p09-001 | attt-2015-p10-000,True,2,False,Như B.
+A,q21,test,,attt-2015-p03-001 | attt-2015-p03-002 | anm-2018-p04-002,False,2,True,"r1 + r2 (cùng trang 3, nối liền nhờ overlap) chứa đủ hai nguyên tắc a), b) khoản 1 Điều 6; r3 là Điều 7 văn bản 2018 ngoài phạm vi người dùng chọn, có thể gây trộn nguyên tắc."
+B,q21,test,,attt-2015-p03-001 | anm-2018-p04-002 | anm-2018-p04-003,True,2,True,"r1 chứa trọn khoản 1 Điều 6; r2, r3 là Điều 7 văn bản 2018 ngoài phạm vi."
+C,q21,test,"{""year"": 2015}",attt-2015-p03-001 | attt-2015-p20-002 | attt-2015-p03-000,True,2,False,r1 chứa trọn khoản 1 Điều 6; cả top-3 thuộc văn bản 2015 đúng phạm vi.
+A,q22,test,,attt-2015-p01-003 | anm-2018-p06-000 | anm-2018-p17-001,True,2,True,"r2 chứa trọn định nghĩa khoản 1 Điều 10 (2018); nhưng r1 là định nghĩa 'hệ thống thông tin quan trọng quốc gia' của văn bản 2015 (ngoài phạm vi) đứng hạng 1, dễ dẫn tới trả lời nhầm."
+B,q22,test,,anm-2018-p06-000 | anm-2018-p06-001 | attt-2015-p09-002,True,2,True,r1 chứa trọn định nghĩa khoản 1 Điều 10; r3 là Điều 26 văn bản 2015 ngoài phạm vi.
+C,q22,test,"{""year"": 2018}",anm-2018-p06-000 | anm-2018-p06-001 | anm-2018-p07-001,True,2,False,r1 chứa trọn định nghĩa; cả top-3 thuộc văn bản 2018.

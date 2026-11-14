@@ -2,3 +2,9 @@
 psycopg[binary]==3.3.8
 pypdf>=5,<7
 python-dotenv>=1,<2
+
+# Embedding (local, no API key): intfloat/multilingual-e5-base, 768 dims.
+# GPU torch install used on the author's machine (CUDA 12.8 wheel):
+#   python -m pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
+# CPU-only machines can use: python -m pip install torch==2.11.0
+sentence-transformers==6.3.0

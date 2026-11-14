@@ -1,0 +1,99 @@
+{
+  "rescored_at": "2026-11-14T04:10:02+00:00",
+  "questions_sha256": "847be3af6f093f49dd56b8d1112af73b656eefbdd6af94fa4ef509ca051cfe83",
+  "retrieval_rerun": false,
+  "changes": [],
+  "phases": {
+    "dev": {
+      "A": {
+        "hit_at_1": {
+          "n": 10,
+          "N": 16,
+          "rate": 0.625,
+          "display": "10/16"
+        },
+        "evidence_hit_at_3": {
+          "n": 11,
+          "N": 16,
+          "rate": 0.6875,
+          "display": "11/16"
+        }
+      },
+      "B": {
+        "hit_at_1": {
+          "n": 11,
+          "N": 16,
+          "rate": 0.6875,
+          "display": "11/16"
+        },
+        "evidence_hit_at_3": {
+          "n": 14,
+          "N": 16,
+          "rate": 0.875,
+          "display": "14/16"
+        }
+      },
+      "C": {
+        "hit_at_1": {
+          "n": 12,
+          "N": 16,
+          "rate": 0.75,
+          "display": "12/16"
+        },
+        "evidence_hit_at_3": {
+          "n": 15,
+          "N": 16,
+          "rate": 0.9375,
+          "display": "15/16"
+        }
+      }
+    },
+    "dev_metrics_identical_to_before": true,
+    "test": {
+      "A": {
+        "hit_at_1": {
+          "n": 0,
+          "N": 6,
+          "rate": 0.0,
+          "display": "0/6"
+        },
+        "evidence_hit_at_3": {
+          "n": 3,
+          "N": 6,
+          "rate": 0.5,
+          "display": "3/6"
+        }
+      },
+      "B": {
+        "hit_at_1": {
+          "n": 6,
+          "N": 6,
+          "rate": 1.0,
+          "display": "6/6"
+        },
+        "evidence_hit_at_3": {
+          "n": 6,
+          "N": 6,
+          "rate": 1.0,
+          "display": "6/6"
+        }
+      },
+      "C": {
+        "hit_at_1": {
+          "n": 6,
+          "N": 6,
+          "rate": 1.0,
+          "display": "6/6"
+        },
+        "evidence_hit_at_3": {
+          "n": 6,
+          "N": 6,
+          "rate": 1.0,
+          "display": "6/6"
+        }
+      }
+    },
+    "test_metrics_identical_to_before": true
+  },
+  "selection_unchanged": true
+}

@@ -1,0 +1,87 @@
+{
+  "labeled_by": "Nguyễn Thiên Bảo (tác giả, tự chấm; có nguy cơ thiên lệch vì biết cấu hình của từng chunk)",
+  "coherence": {
+    "A": {
+      "n": 10,
+      "mean_0_2": 1.0,
+      "counts": {
+        "0": 2,
+        "1": 6,
+        "2": 2
+      }
+    },
+    "B": {
+      "n": 10,
+      "mean_0_2": 2.0,
+      "counts": {
+        "0": 0,
+        "1": 0,
+        "2": 10
+      }
+    },
+    "C": {
+      "n": 10,
+      "mean_0_2": 2.0,
+      "counts": {
+        "0": 0,
+        "1": 0,
+        "2": 10
+      }
+    }
+  },
+  "metadata": {
+    "A": {
+      "complete_and_correct": "18/18",
+      "auto_text_on_pdf_page": "18/18",
+      "filter_compliance_test": "0/2"
+    },
+    "B": {
+      "complete_and_correct": "18/18",
+      "auto_text_on_pdf_page": "18/18",
+      "filter_compliance_test": "0/2"
+    },
+    "C": {
+      "complete_and_correct": "18/18",
+      "auto_text_on_pdf_page": "18/18",
+      "filter_compliance_test": "2/2"
+    }
+  },
+  "grounding": {
+    "A": {
+      "n": 6,
+      "mean_0_2": 1.67,
+      "counts": {
+        "0": 1,
+        "1": 0,
+        "2": 5
+      },
+      "out_of_scope_in_top3": 2,
+      "auto_hit3_vs_manual_disagree": [
+        "q18",
+        "q21"
+      ]
+    },
+    "B": {
+      "n": 6,
+      "mean_0_2": 2.0,
+      "counts": {
+        "0": 0,
+        "1": 0,
+        "2": 6
+      },
+      "out_of_scope_in_top3": 2,
+      "auto_hit3_vs_manual_disagree": []
+    },
+    "C": {
+      "n": 6,
+      "mean_0_2": 2.0,
+      "counts": {
+        "0": 0,
+        "1": 0,
+        "2": 6
+      },
+      "out_of_scope_in_top3": 0,
+      "auto_hit3_vs_manual_disagree": []
+    }
+  }
+}

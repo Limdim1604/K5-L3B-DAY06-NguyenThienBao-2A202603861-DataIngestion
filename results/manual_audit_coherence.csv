@@ -1,0 +1,179 @@
+﻿position,document_id,page,char_pos,strategy,chunk_id,chunk_chars,score_0_2,reason,chunk_text
+POS01,anm-2018,1,1115,A,anm-2018-p01-002,495,0,"Vị trí ở cuối khoản 3 Điều 2 (định nghĩa 'Không gian mạng'); chunk A bắt đầu giữa câu 'công nghệ thông tin, bao gồm...' nên mất chủ thể được định nghĩa.","công nghệ thông tin, bao gồm mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu; là nơi con người thực hiện các hành vi xã hội không bị giới hạn bởi không gian và thời gian.
+4. Không gian mạng quốc gia là không gian mạng do Chính phủ xác lập, quản lý và kiểm soát.
+5. Cơ sở hạ tầng không gian mạng quốc gia là hệ thống cơ sở vật chất, kỹ thuật để tạo lập, truyền đưa, thu thập, xử lý, lưu trữ và trao đổi thông tin trên không"
+POS01,anm-2018,1,1115,B,anm-2018-p01-002,756,2,Chunk chứa trọn tên Điều 2 và các khoản 1-4; định nghĩa tại vị trí đầy đủ.,"Điều 2. Giải thích từ ngữ
+Trong Luật này, các từ ngữ dưới đây được hiểu như sau:
+1. An ninh mạng là sự bảo đảm hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.
+2. Bảo vệ an ninh mạng là phòng ngừa, phát hiện, ngăn chặn, xử lý hành vi xâm phạm an ninh mạng.
+3. Không gian mạng là mạng lưới kết nối của cơ sở hạ tầng công nghệ thông tin, bao gồm mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu; là nơi con người thực hiện các hành vi xã hội không bị giới hạn bởi không gian và thời gian.
+4. Không gian mạng quốc gia là không gian mạng do Chính phủ xác lập, quản lý và kiểm soát."
+POS01,anm-2018,1,1115,C,anm-2018-p01-002,756,2,Chunk chứa trọn tên Điều 2 và các khoản 1-4; định nghĩa tại vị trí đầy đủ. (C = chunk của B),"Điều 2. Giải thích từ ngữ
+Trong Luật này, các từ ngữ dưới đây được hiểu như sau:
+1. An ninh mạng là sự bảo đảm hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.
+2. Bảo vệ an ninh mạng là phòng ngừa, phát hiện, ngăn chặn, xử lý hành vi xâm phạm an ninh mạng.
+3. Không gian mạng là mạng lưới kết nối của cơ sở hạ tầng công nghệ thông tin, bao gồm mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu; là nơi con người thực hiện các hành vi xã hội không bị giới hạn bởi không gian và thời gian.
+4. Không gian mạng quốc gia là không gian mạng do Chính phủ xác lập, quản lý và kiểm soát."
+POS02,anm-2018,6,1210,A,anm-2018-p06-002,495,1,Điểm h) khoản 2 Điều 10 trọn câu nhưng chunk bắt đầu bằng mảnh 'ở trung ương;' và thiếu câu dẫn 'bao gồm' nên không biết đây là danh sách hệ thống thông tin quan trọng về an ninh quốc gia.,"ở trung ương;
+g) Hệ thống thông tin quốc gia thuộc lĩnh vực năng lượng, tài chính, ngân hàng, viễn thông, giao thông vận tải, tài nguyên và môi trường, hóa chất, y tế, văn hóa, báo chí;
+h) Hệ thống điều khiển và giám sát tự động tại công trình quan trọng liên quan đến an ninh quốc gia, mục tiêu quan trọng về an ninh quốc gia.
+3. Thủ tướng Chính phủ ban hành và sửa đổi, bổ sung Danh mục hệ thống thông tin quan trọng về an ninh quốc gia.
+4. Chính phủ quy định việc phối hợp giữa Bộ Công an, Bộ"
+POS02,anm-2018,6,1210,B,anm-2018-p06-001,999,2,Có tiền tố 'Điều 10 (tiếp)' và trọn khoản 2 từ câu dẫn tới điểm h).,"Điều 10. Hệ thống thông tin quan trọng về an ninh quốc gia (tiếp)
+2. Hệ thống thông tin quan trọng về an ninh quốc gia bao gồm:
+a) Hệ thống thông tin quân sự, an ninh, ngoại giao, cơ yếu;
+b) Hệ thống thông tin lưu trữ, xử lý thông tin thuộc bí mật nhà nước;
+c) Hệ thống thông tin phục vụ lưu giữ, bảo quản hiện vật, tài liệu có giá trị đặc biệt quan trọng;
+d) Hệ thống thông tin phục vụ bảo quản vật liệu, chất đặc biệt nguy hiểm đối với con người, môi trường sinh thái;
+đ) Hệ thống thông tin phục vụ bảo quản, chế tạo, quản lý cơ sở vật chất đặc biệt quan trọng khác liên quan đến an ninh quốc gia;
+e) Hệ thống thông tin quan trọng phục vụ hoạt động của cơ quan, tổ chức ở trung ương;
+g) Hệ thống thông tin quốc gia thuộc lĩnh vực năng lượng, tài chính, ngân hàng, viễn thông, giao thông vận tải, tài nguyên và môi trường, hóa chất, y tế, văn hóa, báo chí;
+h) Hệ thống điều khiển và giám sát tự động tại công trình quan trọng liên quan đến an ninh quốc gia, mục tiêu quan trọng về an ninh quốc gia."
+POS02,anm-2018,6,1210,C,anm-2018-p06-001,999,2,Có tiền tố 'Điều 10 (tiếp)' và trọn khoản 2 từ câu dẫn tới điểm h). (C = chunk của B),"Điều 10. Hệ thống thông tin quan trọng về an ninh quốc gia (tiếp)
+2. Hệ thống thông tin quan trọng về an ninh quốc gia bao gồm:
+a) Hệ thống thông tin quân sự, an ninh, ngoại giao, cơ yếu;
+b) Hệ thống thông tin lưu trữ, xử lý thông tin thuộc bí mật nhà nước;
+c) Hệ thống thông tin phục vụ lưu giữ, bảo quản hiện vật, tài liệu có giá trị đặc biệt quan trọng;
+d) Hệ thống thông tin phục vụ bảo quản vật liệu, chất đặc biệt nguy hiểm đối với con người, môi trường sinh thái;
+đ) Hệ thống thông tin phục vụ bảo quản, chế tạo, quản lý cơ sở vật chất đặc biệt quan trọng khác liên quan đến an ninh quốc gia;
+e) Hệ thống thông tin quan trọng phục vụ hoạt động của cơ quan, tổ chức ở trung ương;
+g) Hệ thống thông tin quốc gia thuộc lĩnh vực năng lượng, tài chính, ngân hàng, viễn thông, giao thông vận tải, tài nguyên và môi trường, hóa chất, y tế, văn hóa, báo chí;
+h) Hệ thống điều khiển và giám sát tự động tại công trình quan trọng liên quan đến an ninh quốc gia, mục tiêu quan trọng về an ninh quốc gia."
+POS03,anm-2018,11,1543,A,anm-2018-p11-003,499,0,"Vị trí ở khoản 9 Điều 16; chunk A bắt đầu giữa câu 'đăng tải, phát tán...', mất chủ thể 'Tổ chức, cá nhân soạn thảo'; 'Điều này' không rõ là điều nào.","đăng tải, phát tán thông tin trên không gian mạng có nội dung quy định tại các khoản 1, 2, 3, 4 và 5 Điều này phải gỡ bỏ thông tin khi có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng và chịu trách nhiệm theo quy định của pháp luật.
+Điều 17. Phòng, chống gián điệp mạng; bảo vệ thông tin thuộc bí mật nhà nước, bí mật công tác, bí mật kinh doanh, bí mật cá nhân, bí mật gia đình và đời sống riêng tư trên không gian mạng
+1. Hành vi gián điệp mạng; xâm phạm bí mật nhà nước, bí mật công tác,"
+POS03,anm-2018,11,1543,B,anm-2018-p11-001,1071,2,Có tên Điều 16 (tiếp) và trọn khoản 7-9.,"Điều 16. Phòng ngừa, xử lý thông tin trên không gian mạng có nội dung tuyên truyền chống Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam; kích động gây bạo loạn, phá rối an ninh, gây rối trật tự công cộng; làm nhục, vu khống; xâm phạm trật tự quản lý kinh tế (tiếp)
+7. Lực lượng chuyên trách bảo vệ an ninh mạng và cơ quan có thẩm quyền áp dụng biện pháp quy định tại các điểm h, i và l khoản 1 Điều 5 của Luật này để xử lý thông tin trên không gian mạng có nội dung quy định tại các khoản 1, 2, 3, 4 và 5 Điều này.
+8. Doanh nghiệp cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng và chủ quản hệ thống thông tin có trách nhiệm phối hợp với cơ quan chức năng xử lý thông tin trên không gian mạng có nội dung quy định tại các khoản 1, 2, 3, 4 và 5 Điều này.
+9. Tổ chức, cá nhân soạn thảo, đăng tải, phát tán thông tin trên không gian mạng có nội dung quy định tại các khoản 1, 2, 3, 4 và 5 Điều này phải gỡ bỏ thông tin khi có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng và chịu trách nhiệm theo quy định của pháp luật."
+POS03,anm-2018,11,1543,C,anm-2018-p11-001,1071,2,Có tên Điều 16 (tiếp) và trọn khoản 7-9. (C = chunk của B),"Điều 16. Phòng ngừa, xử lý thông tin trên không gian mạng có nội dung tuyên truyền chống Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam; kích động gây bạo loạn, phá rối an ninh, gây rối trật tự công cộng; làm nhục, vu khống; xâm phạm trật tự quản lý kinh tế (tiếp)
+7. Lực lượng chuyên trách bảo vệ an ninh mạng và cơ quan có thẩm quyền áp dụng biện pháp quy định tại các điểm h, i và l khoản 1 Điều 5 của Luật này để xử lý thông tin trên không gian mạng có nội dung quy định tại các khoản 1, 2, 3, 4 và 5 Điều này.
+8. Doanh nghiệp cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng và chủ quản hệ thống thông tin có trách nhiệm phối hợp với cơ quan chức năng xử lý thông tin trên không gian mạng có nội dung quy định tại các khoản 1, 2, 3, 4 và 5 Điều này.
+9. Tổ chức, cá nhân soạn thảo, đăng tải, phát tán thông tin trên không gian mạng có nội dung quy định tại các khoản 1, 2, 3, 4 và 5 Điều này phải gỡ bỏ thông tin khi có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng và chịu trách nhiệm theo quy định của pháp luật."
+POS04,anm-2018,16,1242,A,anm-2018-p16-002,498,2,Khoản 3 Điều 22 ('Bộ Công an chủ trì... đấu tranh bảo vệ an ninh mạng') trọn câu và tự hiểu được; đầu/cuối chunk có mảnh của điểm c) và heading Điều 23 bị cắt nhưng không ở vị trí chấm.,"hạn chế hoạt động sử dụng không gian mạng nhằm gây phương hại an ninh quốc gia hoặc gây tổn hại đặc biệt nghiêm trọng trật tự, an toàn xã hội;
+d) Chủ động tấn công vô hiệu hóa mục tiêu trên không gian mạng nhằm bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội.
+3. Bộ Công an chủ trì, phối hợp với Bộ, ngành có liên quan thực hiện đấu tranh bảo vệ an ninh mạng.
+Chương IV
+HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG
+Điều 23. Triển khai hoạt động bảo vệ an ninh mạng trong cơ quan nhà nước, tổ chức chính"
+POS04,anm-2018,16,1242,B,anm-2018-p16-001,864,2,Trọn Điều 22.,"Điều 22. Đấu tranh bảo vệ an ninh mạng
+1. Đấu tranh bảo vệ an ninh mạng là hoạt động có tổ chức do lực lượng chuyên trách bảo vệ an ninh mạng thực hiện trên không gian mạng nhằm bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội.
+2. Nội dung đấu tranh bảo vệ an ninh mạng bao gồm:
+a) Tổ chức nắm tình hình có liên quan đến hoạt động bảo vệ an ninh quốc gia;
+b) Phòng, chống tấn công và bảo vệ hoạt động ổn định của hệ thống thông tin quan trọng về an ninh quốc gia;
+c) Làm tê liệt hoặc hạn chế hoạt động sử dụng không gian mạng nhằm gây phương hại an ninh quốc gia hoặc gây tổn hại đặc biệt nghiêm trọng trật tự, an toàn xã hội;
+d) Chủ động tấn công vô hiệu hóa mục tiêu trên không gian mạng nhằm bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội.
+3. Bộ Công an chủ trì, phối hợp với Bộ, ngành có liên quan thực hiện đấu tranh bảo vệ an ninh mạng."
+POS04,anm-2018,16,1242,C,anm-2018-p16-001,864,2,Trọn Điều 22. (C = chunk của B),"Điều 22. Đấu tranh bảo vệ an ninh mạng
+1. Đấu tranh bảo vệ an ninh mạng là hoạt động có tổ chức do lực lượng chuyên trách bảo vệ an ninh mạng thực hiện trên không gian mạng nhằm bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội.
+2. Nội dung đấu tranh bảo vệ an ninh mạng bao gồm:
+a) Tổ chức nắm tình hình có liên quan đến hoạt động bảo vệ an ninh quốc gia;
+b) Phòng, chống tấn công và bảo vệ hoạt động ổn định của hệ thống thông tin quan trọng về an ninh quốc gia;
+c) Làm tê liệt hoặc hạn chế hoạt động sử dụng không gian mạng nhằm gây phương hại an ninh quốc gia hoặc gây tổn hại đặc biệt nghiêm trọng trật tự, an toàn xã hội;
+d) Chủ động tấn công vô hiệu hóa mục tiêu trên không gian mạng nhằm bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội.
+3. Bộ Công an chủ trì, phối hợp với Bộ, ngành có liên quan thực hiện đấu tranh bảo vệ an ninh mạng."
+POS05,anm-2018,21,1263,A,anm-2018-p21-002,496,1,"Vị trí là câu dẫn Điều 36 '...có nhiệm vụ, quyền hạn sau đây'; chunk kết thúc ngay ở '1.' nên không có nội dung danh sách.","nước thực hiện theo quy định của pháp luật về ngân sách nhà nước.
+2. Kinh phí bảo vệ an ninh mạng cho hệ thống thông tin của cơ quan, tổ chức ngoài quy định tại khoản 1 Điều này do cơ quan, tổ chức tự bảo đảm.
+Chương VI
+TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN
+Điều 36. Trách nhiệm của Bộ Công an
+Bộ Công an chịu trách nhiệm trước Chính phủ thực hiện quản lý nhà nước về an ninh mạng và có nhiệm vụ, quyền hạn sau đây, trừ nội dung thuộc trách nhiệm của Bộ Quốc phòng và Ban Cơ yếu Chính phủ:
+1."
+POS05,anm-2018,21,1263,B,anm-2018-p21-002,856,2,Câu dẫn Điều 36 kèm 4 nhiệm vụ đầu trọn vẹn; các mục sau nằm ở chunk kế (có tiền tố Điều 36).,"Chương VI
+TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN
+Điều 36. Trách nhiệm của Bộ Công an
+Bộ Công an chịu trách nhiệm trước Chính phủ thực hiện quản lý nhà nước về an ninh mạng và có nhiệm vụ, quyền hạn sau đây, trừ nội dung thuộc trách nhiệm của Bộ Quốc phòng và Ban Cơ yếu Chính phủ:
+1. Ban hành hoặc trình cơ quan nhà nước có thẩm quyền ban hành và hướng dẫn thi hành văn bản quy phạm pháp luật về an ninh mạng;
+2. Xây dựng, đề xuất chiến lược, chủ trương, chính sách, kế hoạch và phương án bảo vệ an ninh mạng;
+3. Phòng ngừa, đấu tranh với hoạt động sử dụng không gian mạng xâm phạm chủ quyền, lợi ích, an ninh quốc gia, trật tự, an toàn xã hội và phòng, chống tội phạm mạng;
+4. Bảo đảm an ninh thông tin trên không gian mạng; xây dựng cơ chế xác thực thông tin đăng ký tài khoản số; cảnh báo, chia sẻ thông tin an ninh mạng, nguy cơ đe dọa an ninh mạng;"
+POS05,anm-2018,21,1263,C,anm-2018-p21-002,856,2,Câu dẫn Điều 36 kèm 4 nhiệm vụ đầu trọn vẹn; các mục sau nằm ở chunk kế (có tiền tố Điều 36). (C = chunk của B),"Chương VI
+TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN
+Điều 36. Trách nhiệm của Bộ Công an
+Bộ Công an chịu trách nhiệm trước Chính phủ thực hiện quản lý nhà nước về an ninh mạng và có nhiệm vụ, quyền hạn sau đây, trừ nội dung thuộc trách nhiệm của Bộ Quốc phòng và Ban Cơ yếu Chính phủ:
+1. Ban hành hoặc trình cơ quan nhà nước có thẩm quyền ban hành và hướng dẫn thi hành văn bản quy phạm pháp luật về an ninh mạng;
+2. Xây dựng, đề xuất chiến lược, chủ trương, chính sách, kế hoạch và phương án bảo vệ an ninh mạng;
+3. Phòng ngừa, đấu tranh với hoạt động sử dụng không gian mạng xâm phạm chủ quyền, lợi ích, an ninh quốc gia, trật tự, an toàn xã hội và phòng, chống tội phạm mạng;
+4. Bảo đảm an ninh thông tin trên không gian mạng; xây dựng cơ chế xác thực thông tin đăng ký tài khoản số; cảnh báo, chia sẻ thông tin an ninh mạng, nguy cơ đe dọa an ninh mạng;"
+POS06,attt-2015,3,1471,A,attt-2015-p03-003,495,1,Điểm c) khoản 2 Điều 6 trọn câu nhưng thiếu câu dẫn 'Nội dung hợp tác quốc tế... gồm'; điểm b) phía trước bị cắt đầu.,"phòng, chống hành vi vi phạm pháp luật về an toàn thông tin mạng; điều tra, xử lý sự cố an toàn thông tin mạng, ngăn chặn hoạt động lợi dụng mạng để khủng bố;
+c) Hoạt động hợp tác quốc tế khác về an toàn thông tin mạng.
+Điều 7. Các hành vi bị nghiêm cấm
+1. Ngăn chặn việc truyền tải thông tin trên mạng, can thiệp, truy nhập, gây nguy hại, xóa, thay đổi, sao chép và làm sai lệch thông tin trên mạng trái pháp luật.
+2. Gây ảnh hưởng, cản trở trái pháp luật tới hoạt động bình thường của hệ thống"
+POS06,attt-2015,3,1471,B,attt-2015-p03-001,812,2,Trọn Điều 6 (khoản 1 và 2).,"Điều 6. Hợp tác quốc tế về an toàn thông tin mạng
+1. Hợp tác quốc tế về an toàn thông tin mạng phải tuân thủ các nguyên tắc sau đây:
+a) Tôn trọng độc lập, chủ quyền và toàn vẹn lãnh thổ quốc gia, không can thiệp vào công việc nội bộ của nhau, bình đẳng và các bên cùng có lợi;
+b) Phù hợp với quy định của pháp luật Việt Nam, điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.
+2. Nội dung hợp tác quốc tế về an toàn thông tin mạng gồm:
+a) Hợp tác quốc tế trong đào tạo, nghiên cứu và ứng dụng khoa học, kỹ thuật, công nghệ về an toàn thông tin mạng;
+b) Hợp tác quốc tế trong phòng, chống hành vi vi phạm pháp luật về an toàn thông tin mạng; điều tra, xử lý sự cố an toàn thông tin mạng, ngăn chặn hoạt động lợi dụng mạng để khủng bố;
+c) Hoạt động hợp tác quốc tế khác về an toàn thông tin mạng."
+POS06,attt-2015,3,1471,C,attt-2015-p03-001,812,2,Trọn Điều 6 (khoản 1 và 2). (C = chunk của B),"Điều 6. Hợp tác quốc tế về an toàn thông tin mạng
+1. Hợp tác quốc tế về an toàn thông tin mạng phải tuân thủ các nguyên tắc sau đây:
+a) Tôn trọng độc lập, chủ quyền và toàn vẹn lãnh thổ quốc gia, không can thiệp vào công việc nội bộ của nhau, bình đẳng và các bên cùng có lợi;
+b) Phù hợp với quy định của pháp luật Việt Nam, điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.
+2. Nội dung hợp tác quốc tế về an toàn thông tin mạng gồm:
+a) Hợp tác quốc tế trong đào tạo, nghiên cứu và ứng dụng khoa học, kỹ thuật, công nghệ về an toàn thông tin mạng;
+b) Hợp tác quốc tế trong phòng, chống hành vi vi phạm pháp luật về an toàn thông tin mạng; điều tra, xử lý sự cố an toàn thông tin mạng, ngăn chặn hoạt động lợi dụng mạng để khủng bố;
+c) Hoạt động hợp tác quốc tế khác về an toàn thông tin mạng."
+POS07,attt-2015,8,1333,A,attt-2015-p08-002,495,1,Khoản 3 Điều 21 bị cắt cuối ('...trách nhiệm bảo đảm an toàn hệ'); hiểu được ý chính nhưng thiếu 'theo từng cấp độ'.,"tổn hại tới quốc phòng, an ninh quốc gia;
+d) Cấp độ 4 là cấp độ mà khi bị phá hoại sẽ làm tổn hại đặc biệt nghiêm trọng tới lợi ích công cộng và trật tự, an toàn xã hội hoặc làm tổn hại nghiêm trọng tới quốc phòng, an ninh quốc gia;
+đ) Cấp độ 5 là cấp độ mà khi bị phá hoại sẽ làm tổn hại đặc biệt nghiêm trọng tới quốc phòng, an ninh quốc gia.
+3. Chính phủ quy định chi tiết về tiêu chí, thẩm quyền, trình tự, thủ tục xác định cấp độ an toàn hệ thống thông tin và trách nhiệm bảo đảm an toàn hệ"
+POS07,attt-2015,8,1333,B,attt-2015-p08-002,244,2,Tiền tố 'Điều 21 (tiếp)' và trọn khoản 3.,"Điều 21. Phân loại cấp độ an toàn hệ thống thông tin (tiếp)
+3. Chính phủ quy định chi tiết về tiêu chí, thẩm quyền, trình tự, thủ tục xác định cấp độ an toàn hệ thống thông tin và trách nhiệm bảo đảm an toàn hệ thống thông tin theo từng cấp độ."
+POS07,attt-2015,8,1333,C,attt-2015-p08-002,244,2,Tiền tố 'Điều 21 (tiếp)' và trọn khoản 3. (C = chunk của B),"Điều 21. Phân loại cấp độ an toàn hệ thống thông tin (tiếp)
+3. Chính phủ quy định chi tiết về tiêu chí, thẩm quyền, trình tự, thủ tục xác định cấp độ an toàn hệ thống thông tin và trách nhiệm bảo đảm an toàn hệ thống thông tin theo từng cấp độ."
+POS08,attt-2015,13,1224,A,attt-2015-p13-002,499,2,Tên Điều 34 và khoản 1 trọn vẹn tại vị trí; đầu chunk có mảnh vụn điểm a)-c) khoản 5 Điều 33 thiếu câu dẫn.,"Giấy phép mà không có lý do chính đáng;
+b) Giấy phép đã hết hạn;
+c) Hết thời hạn tạm đình chỉ mà doanh nghiệp không khắc phục được các lý do quy định tại khoản 4 Điều này.
+Điều 34. Xuất khẩu, nhập khẩu sản phẩm mật mã dân sự
+1. Khi xuất khẩu, nhập khẩu sản phẩm mật mã dân sự thuộc Danh mục sản phẩm mật mã dân sự xuất khẩu, nhập khẩu theo giấy phép, doanh nghiệp phải có Giấy phép xuất khẩu, nhập khẩu sản phẩm mật mã dân sự do cơ quan nhà nước có thẩm quyền cấp.
+2. Doanh nghiệp được cấp Giấy phép"
+POS08,attt-2015,13,1224,B,attt-2015-p13-002,721,2,Trọn Điều 34 khoản 1-2.,"Điều 34. Xuất khẩu, nhập khẩu sản phẩm mật mã dân sự
+1. Khi xuất khẩu, nhập khẩu sản phẩm mật mã dân sự thuộc Danh mục sản phẩm mật mã dân sự xuất khẩu, nhập khẩu theo giấy phép, doanh nghiệp phải có Giấy phép xuất khẩu, nhập khẩu sản phẩm mật mã dân sự do cơ quan nhà nước có thẩm quyền cấp.
+2. Doanh nghiệp được cấp Giấy phép xuất khẩu, nhập khẩu sản phẩm mật mã dân sự khi đáp ứng đủ các điều kiện sau đây:
+a) Có Giấy phép kinh doanh sản phẩm, dịch vụ mật mã dân sự;
+b) Sản phẩm mật mã dân sự nhập khẩu phải được chứng nhận, công bố hợp quy theo quy định tại Điều 39 của Luật này;
+c) Đối tượng và mục đích sử dụng sản phẩm mật mã dân sự không gây phương hại đến quốc phòng, an ninh quốc gia và trật tự, an toàn xã hội."
+POS08,attt-2015,13,1224,C,attt-2015-p13-002,721,2,Trọn Điều 34 khoản 1-2. (C = chunk của B),"Điều 34. Xuất khẩu, nhập khẩu sản phẩm mật mã dân sự
+1. Khi xuất khẩu, nhập khẩu sản phẩm mật mã dân sự thuộc Danh mục sản phẩm mật mã dân sự xuất khẩu, nhập khẩu theo giấy phép, doanh nghiệp phải có Giấy phép xuất khẩu, nhập khẩu sản phẩm mật mã dân sự do cơ quan nhà nước có thẩm quyền cấp.
+2. Doanh nghiệp được cấp Giấy phép xuất khẩu, nhập khẩu sản phẩm mật mã dân sự khi đáp ứng đủ các điều kiện sau đây:
+a) Có Giấy phép kinh doanh sản phẩm, dịch vụ mật mã dân sự;
+b) Sản phẩm mật mã dân sự nhập khẩu phải được chứng nhận, công bố hợp quy theo quy định tại Điều 39 của Luật này;
+c) Đối tượng và mục đích sử dụng sản phẩm mật mã dân sự không gây phương hại đến quốc phòng, an ninh quốc gia và trật tự, an toàn xã hội."
+POS09,attt-2015,18,1192,A,attt-2015-p18-002,499,1,"Câu dẫn khoản 3 Điều 43 '...còn phải có:' chỉ kèm điểm a) bị cắt; thiếu b), c).","gồm phạm vi, đối tượng cung cấp sản phẩm, dịch vụ, tiêu chuẩn, chất lượng sản phẩm, dịch vụ;
+đ) Bản sao văn bằng hoặc chứng chỉ chuyên môn về an toàn thông tin của đội ngũ quản lý, điều hành, kỹ thuật.
+3. Ngoài giấy tờ, tài liệu quy định tại khoản 2 Điều này, hồ sơ đề nghị cấp Giấy phép kinh doanh dịch vụ kiểm tra, đánh giá an toàn thông tin hoặc dịch vụ bảo mật thông tin không sử dụng mật mã dân sự còn phải có:
+a) Phiếu lý lịch tư pháp của người đại diện theo pháp luật và đội ngũ quản lý, điều"
+POS09,attt-2015,18,1192,B,attt-2015-p18-002,508,2,Tiền tố 'Điều 43 (tiếp)' và trọn khoản 3 (a-c).,"Điều 43. Hồ sơ đề nghị cấp Giấy phép kinh doanh sản phẩm, dịch vụ an toàn thông tin mạng (tiếp)
+3. Ngoài giấy tờ, tài liệu quy định tại khoản 2 Điều này, hồ sơ đề nghị cấp Giấy phép kinh doanh dịch vụ kiểm tra, đánh giá an toàn thông tin hoặc dịch vụ bảo mật thông tin không sử dụng mật mã dân sự còn phải có:
+a) Phiếu lý lịch tư pháp của người đại diện theo pháp luật và đội ngũ quản lý, điều hành, kỹ thuật;
+b) Phương án kỹ thuật;
+c) Phương án bảo mật thông tin khách hàng trong quá trình cung cấp dịch vụ."
+POS09,attt-2015,18,1192,C,attt-2015-p18-002,508,2,Tiền tố 'Điều 43 (tiếp)' và trọn khoản 3 (a-c). (C = chunk của B),"Điều 43. Hồ sơ đề nghị cấp Giấy phép kinh doanh sản phẩm, dịch vụ an toàn thông tin mạng (tiếp)
+3. Ngoài giấy tờ, tài liệu quy định tại khoản 2 Điều này, hồ sơ đề nghị cấp Giấy phép kinh doanh dịch vụ kiểm tra, đánh giá an toàn thông tin hoặc dịch vụ bảo mật thông tin không sử dụng mật mã dân sự còn phải có:
+a) Phiếu lý lịch tư pháp của người đại diện theo pháp luật và đội ngũ quản lý, điều hành, kỹ thuật;
+b) Phương án kỹ thuật;
+c) Phương án bảo mật thông tin khách hàng trong quá trình cung cấp dịch vụ."
+POS10,attt-2015,23,1357,A,attt-2015-p23-002,495,1,"Điểm a) khoản 5 Điều 52 bị cắt giữa cụm 'bảo vệ bí mật nhà'; có câu dẫn 'Bộ Công an có nhiệm vụ, quyền hạn' nên hiểu một phần.","sản phẩm, dịch vụ mật mã dân sự, Giấy phép xuất khẩu, nhập khẩu sản phẩm mật mã dân sự;
+e) Kiểm tra, thanh tra, giải quyết khiếu nại, tố cáo và xử lý vi phạm pháp luật trong hoạt động kinh doanh, sử dụng mật mã dân sự;
+g) Hợp tác quốc tế về mật mã dân sự.
+5. Bộ Công an có nhiệm vụ, quyền hạn sau đây:
+a) Chủ trì, phối hợp với bộ, ngành có liên quan xây dựng và trình cấp có thẩm quyền ban hành hoặc ban hành theo thẩm quyền và hướng dẫn thực hiện văn bản quy phạm pháp luật về bảo vệ bí mật nhà"
+POS10,attt-2015,23,1357,B,attt-2015-p23-002,1016,2,"Khoản 5 Điều 52 (a-d) trọn vẹn tại vị trí; đầu chunk có điểm e), g) của khoản 4 thiếu câu dẫn (ngoài vị trí chấm).","Điều 52. Trách nhiệm quản lý nhà nước về an toàn thông tin mạng (tiếp)
+e) Kiểm tra, thanh tra, giải quyết khiếu nại, tố cáo và xử lý vi phạm pháp luật trong hoạt động kinh doanh, sử dụng mật mã dân sự;
+g) Hợp tác quốc tế về mật mã dân sự.
+5. Bộ Công an có nhiệm vụ, quyền hạn sau đây:
+a) Chủ trì, phối hợp với bộ, ngành có liên quan xây dựng và trình cấp có thẩm quyền ban hành hoặc ban hành theo thẩm quyền và hướng dẫn thực hiện văn bản quy phạm pháp luật về bảo vệ bí mật nhà nước, phòng, chống tội phạm mạng, lợi dụng mạng để xâm phạm an ninh quốc gia, trật tự, an toàn xã hội;
+b) Thực hiện quản lý công tác giám sát an toàn hệ thống thông tin thuộc Bộ Công an;
+c) Tổ chức, chỉ đạo, triển khai công tác phòng, chống tội phạm, tổ chức điều tra tội phạm mạng và hành vi vi phạm pháp luật khác trong lĩnh vực an toàn thông tin mạng;
+d) Phối hợp với Bộ Thông tin và Truyền thông, bộ, ngành có liên quan kiểm tra, thanh tra về an toàn thông tin mạng, xử lý vi phạm pháp luật về an toàn thông tin mạng theo thẩm quyền."
+POS10,attt-2015,23,1357,C,attt-2015-p23-002,1016,2,"Khoản 5 Điều 52 (a-d) trọn vẹn tại vị trí; đầu chunk có điểm e), g) của khoản 4 thiếu câu dẫn (ngoài vị trí chấm). (C = chunk của B)","Điều 52. Trách nhiệm quản lý nhà nước về an toàn thông tin mạng (tiếp)
+e) Kiểm tra, thanh tra, giải quyết khiếu nại, tố cáo và xử lý vi phạm pháp luật trong hoạt động kinh doanh, sử dụng mật mã dân sự;
+g) Hợp tác quốc tế về mật mã dân sự.
+5. Bộ Công an có nhiệm vụ, quyền hạn sau đây:
+a) Chủ trì, phối hợp với bộ, ngành có liên quan xây dựng và trình cấp có thẩm quyền ban hành hoặc ban hành theo thẩm quyền và hướng dẫn thực hiện văn bản quy phạm pháp luật về bảo vệ bí mật nhà nước, phòng, chống tội phạm mạng, lợi dụng mạng để xâm phạm an ninh quốc gia, trật tự, an toàn xã hội;
+b) Thực hiện quản lý công tác giám sát an toàn hệ thống thông tin thuộc Bộ Công an;
+c) Tổ chức, chỉ đạo, triển khai công tác phòng, chống tội phạm, tổ chức điều tra tội phạm mạng và hành vi vi phạm pháp luật khác trong lĩnh vực an toàn thông tin mạng;
+d) Phối hợp với Bộ Thông tin và Truyền thông, bộ, ngành có liên quan kiểm tra, thanh tra về an toàn thông tin mạng, xử lý vi phạm pháp luật về an toàn thông tin mạng theo thẩm quyền."

@@ -1,0 +1,345 @@
+{
+  "corpus": "Luật Việt Nam về an toàn thông tin mạng và an ninh mạng (bản gốc 2015, 2018)",
+  "language": "vi",
+  "page_counting_rule": "Trang vật lý được tính khi text trích xuất (NFC, bỏ khoảng trắng đầu/cuối) có >= 300 ký tự; trang dưới ngưỡng được kiểm tra thủ công và ghi lý do loại. Không có trang bìa, mục lục hay tài liệu tham khảo riêng; trang 1 chứa Điều 1-2 nên được tính.",
+  "char_count_note": "Số ký tự đo trên text pypdf sau NFC + strip, trước bước chuẩn hóa khoảng trắng của pipeline.",
+  "filter_fields": {
+    "year": "int, năm ban hành lấy từ dòng 'Luật số ...' trên trang 1 (2015 hoặc 2018)",
+    "document_id": "str, ID tài liệu do tác giả đặt theo số hiệu luật"
+  },
+  "total_counted_pages": 47,
+  "documents": [
+    {
+      "source_id": "attt-2015",
+      "title": "Luật An toàn thông tin mạng",
+      "law_number": "86/2015/QH13",
+      "issuer": "Quốc hội khóa XIII, kỳ họp thứ 10",
+      "issued_date": "2015-11-19",
+      "effective_date_stated_in_text": "2016-07-01",
+      "year": 2015,
+      "source_path_or_url": "https://www.importlicensing.wto.org/sites/default/files/members/134/Law%20No.86_2015%20-%20Cyber-information%20security%20%28VIE%29_19.11.2015.pdf",
+      "version_note": "Văn bản gốc khi ban hành (8 chương, 54 điều). Không bao gồm sửa đổi theo Luật 35/2018/QH14. Đã hết hiệu lực từ 2026-07-01 theo Điều 44 Luật An ninh mạng 116/2025/QH15 (nguồn: tra cứu web ngày truy cập). Benchmark hỏi theo nội dung văn bản này, không hỏi hiệu lực pháp lý hiện hành.",
+      "source_path_local": "data/raw/luat-attt-86-2015-qh13.pdf",
+      "sha256": "cfbf7dc1b007b7c8945b60e4bcdc5d9615e82499458a3c2fe2950668cfbf32f0",
+      "license_or_permission": "Văn bản quy phạm pháp luật không thuộc phạm vi bảo hộ quyền tác giả (Điều 15 khoản 2 Luật Sở hữu trí tuệ số 50/2005/QH11, sửa đổi, bổ sung). Được phép xử lý và tái phân phối; bản PDF là bản dàn trang lại của bên thứ ba, không phải bản Công báo.",
+      "accessed_at": "2026-11-14",
+      "physical_pages": 24,
+      "counted_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "counted_page_total": 24,
+      "counted_chars": 61245,
+      "pages": [
+        {
+          "page": 1,
+          "chars": 2317,
+          "counted": true
+        },
+        {
+          "page": 2,
+          "chars": 2788,
+          "counted": true
+        },
+        {
+          "page": 3,
+          "chars": 2980,
+          "counted": true
+        },
+        {
+          "page": 4,
+          "chars": 2628,
+          "counted": true
+        },
+        {
+          "page": 5,
+          "chars": 2661,
+          "counted": true
+        },
+        {
+          "page": 6,
+          "chars": 2614,
+          "counted": true
+        },
+        {
+          "page": 7,
+          "chars": 2912,
+          "counted": true
+        },
+        {
+          "page": 8,
+          "chars": 2703,
+          "counted": true
+        },
+        {
+          "page": 9,
+          "chars": 2581,
+          "counted": true
+        },
+        {
+          "page": 10,
+          "chars": 2793,
+          "counted": true
+        },
+        {
+          "page": 11,
+          "chars": 2176,
+          "counted": true
+        },
+        {
+          "page": 12,
+          "chars": 2835,
+          "counted": true
+        },
+        {
+          "page": 13,
+          "chars": 2485,
+          "counted": true
+        },
+        {
+          "page": 14,
+          "chars": 2720,
+          "counted": true
+        },
+        {
+          "page": 15,
+          "chars": 2998,
+          "counted": true
+        },
+        {
+          "page": 16,
+          "chars": 2548,
+          "counted": true
+        },
+        {
+          "page": 17,
+          "chars": 2084,
+          "counted": true
+        },
+        {
+          "page": 18,
+          "chars": 2422,
+          "counted": true
+        },
+        {
+          "page": 19,
+          "chars": 2869,
+          "counted": true
+        },
+        {
+          "page": 20,
+          "chars": 2661,
+          "counted": true
+        },
+        {
+          "page": 21,
+          "chars": 2610,
+          "counted": true
+        },
+        {
+          "page": 22,
+          "chars": 2539,
+          "counted": true
+        },
+        {
+          "page": 23,
+          "chars": 2752,
+          "counted": true
+        },
+        {
+          "page": 24,
+          "chars": 569,
+          "counted": true
+        }
+      ]
+    },
+    {
+      "source_id": "anm-2018",
+      "title": "Luật An ninh mạng",
+      "law_number": "24/2018/QH14",
+      "issuer": "Quốc hội khóa XIV, kỳ họp thứ 5",
+      "issued_date": "2018-06-12",
+      "effective_date_stated_in_text": "2019-01-01",
+      "year": 2018,
+      "source_path_or_url": "https://cntt.pnt.edu.vn/api/upload/2025051537j24_2018_QH14_351416.pdf",
+      "version_note": "Văn bản gốc khi ban hành (7 chương, 43 điều). Đã hết hiệu lực từ 2026-07-01 theo Điều 44 Luật An ninh mạng 116/2025/QH15 (nguồn: tra cứu web ngày truy cập). Benchmark hỏi theo nội dung văn bản này, không hỏi hiệu lực pháp lý hiện hành.",
+      "source_path_local": "data/raw/luat-anm-24-2018-qh14.pdf",
+      "sha256": "10eb3460cdbd1cc0d18c8ab743407b5ca7d9e0ce3cee905eedd452542c1b8fd1",
+      "license_or_permission": "Văn bản quy phạm pháp luật không thuộc phạm vi bảo hộ quyền tác giả (Điều 15 khoản 2 Luật Sở hữu trí tuệ số 50/2005/QH11, sửa đổi, bổ sung). Được phép xử lý và tái phân phối; bản PDF là bản dàn trang lại của bên thứ ba, không phải bản Công báo.",
+      "accessed_at": "2026-11-14",
+      "physical_pages": 24,
+      "counted_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "counted_page_total": 23,
+      "counted_chars": 63294,
+      "pages": [
+        {
+          "page": 1,
+          "chars": 2296,
+          "counted": true
+        },
+        {
+          "page": 2,
+          "chars": 2853,
+          "counted": true
+        },
+        {
+          "page": 3,
+          "chars": 2591,
+          "counted": true
+        },
+        {
+          "page": 4,
+          "chars": 2500,
+          "counted": true
+        },
+        {
+          "page": 5,
+          "chars": 2797,
+          "counted": true
+        },
+        {
+          "page": 6,
+          "chars": 2456,
+          "counted": true
+        },
+        {
+          "page": 7,
+          "chars": 2748,
+          "counted": true
+        },
+        {
+          "page": 8,
+          "chars": 2785,
+          "counted": true
+        },
+        {
+          "page": 9,
+          "chars": 2786,
+          "counted": true
+        },
+        {
+          "page": 10,
+          "chars": 2848,
+          "counted": true
+        },
+        {
+          "page": 11,
+          "chars": 3126,
+          "counted": true
+        },
+        {
+          "page": 12,
+          "chars": 3023,
+          "counted": true
+        },
+        {
+          "page": 13,
+          "chars": 2896,
+          "counted": true
+        },
+        {
+          "page": 14,
+          "chars": 2915,
+          "counted": true
+        },
+        {
+          "page": 15,
+          "chars": 2808,
+          "counted": true
+        },
+        {
+          "page": 16,
+          "chars": 2521,
+          "counted": true
+        },
+        {
+          "page": 17,
+          "chars": 2744,
+          "counted": true
+        },
+        {
+          "page": 18,
+          "chars": 3041,
+          "counted": true
+        },
+        {
+          "page": 19,
+          "chars": 2726,
+          "counted": true
+        },
+        {
+          "page": 20,
+          "chars": 2617,
+          "counted": true
+        },
+        {
+          "page": 21,
+          "chars": 2562,
+          "counted": true
+        },
+        {
+          "page": 22,
+          "chars": 2690,
+          "counted": true
+        },
+        {
+          "page": 23,
+          "chars": 2965,
+          "counted": true
+        },
+        {
+          "page": 24,
+          "chars": 46,
+          "counted": false,
+          "exclusion_reason": "Chỉ có chức danh và chữ ký Chủ tịch Quốc hội, không có nội dung điều luật."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "labeled_by": "Nguyễn Thiên Bảo (tác giả, tự chấm; có nguy cơ thiên lệch vì biết cấu hình của từng chunk)",
+  "labeled_at": "2026-11-14",
+  "coherence": {
+    "scale": "0 = đơn vị nội dung (khoản/điểm) tại vị trí bị cắt hoặc mất chủ thể nên không hiểu; 1 = hiểu một phần: đơn vị bị cắt cụt, hoặc thiếu ngữ cảnh cần thiết (câu dẫn của danh sách, tên Điều, đối tượng được định nghĩa); 2 = đơn vị tại vị trí trọn vẹn và tự hiểu được",
+    "selection_rule": "Sắp xếp 47 trang được tính theo (document_id, page), lấy trang ở chỉ số 0,5,...,45; vị trí = ký tự giữa trang (len(text)//2) trong text đã chuẩn hóa; chunk được chấm = chunk đầu tiên (theo chunk_id) có char_start <= vị trí < char_end. Quy tắc chốt trước khi xem chunk và độc lập với điểm truy xuất.",
+    "C_note": "C dùng đúng các chunk của B nên nhãn C sao chép từ B.",
+    "labels": {
+      "POS01": {"A": [0, "Vị trí ở cuối khoản 3 Điều 2 (định nghĩa 'Không gian mạng'); chunk A bắt đầu giữa câu 'công nghệ thông tin, bao gồm...' nên mất chủ thể được định nghĩa."],
+                "B": [2, "Chunk chứa trọn tên Điều 2 và các khoản 1-4; định nghĩa tại vị trí đầy đủ."]},
+      "POS02": {"A": [1, "Điểm h) khoản 2 Điều 10 trọn câu nhưng chunk bắt đầu bằng mảnh 'ở trung ương;' và thiếu câu dẫn 'bao gồm' nên không biết đây là danh sách hệ thống thông tin quan trọng về an ninh quốc gia."],
+                "B": [2, "Có tiền tố 'Điều 10 (tiếp)' và trọn khoản 2 từ câu dẫn tới điểm h)."]},
+      "POS03": {"A": [0, "Vị trí ở khoản 9 Điều 16; chunk A bắt đầu giữa câu 'đăng tải, phát tán...', mất chủ thể 'Tổ chức, cá nhân soạn thảo'; 'Điều này' không rõ là điều nào."],
+                "B": [2, "Có tên Điều 16 (tiếp) và trọn khoản 7-9."]},
+      "POS04": {"A": [2, "Khoản 3 Điều 22 ('Bộ Công an chủ trì... đấu tranh bảo vệ an ninh mạng') trọn câu và tự hiểu được; đầu/cuối chunk có mảnh của điểm c) và heading Điều 23 bị cắt nhưng không ở vị trí chấm."],
+                "B": [2, "Trọn Điều 22."]},
+      "POS05": {"A": [1, "Vị trí là câu dẫn Điều 36 '...có nhiệm vụ, quyền hạn sau đây'; chunk kết thúc ngay ở '1.' nên không có nội dung danh sách."],
+                "B": [2, "Câu dẫn Điều 36 kèm 4 nhiệm vụ đầu trọn vẹn; các mục sau nằm ở chunk kế (có tiền tố Điều 36)."]},
+      "POS06": {"A": [1, "Điểm c) khoản 2 Điều 6 trọn câu nhưng thiếu câu dẫn 'Nội dung hợp tác quốc tế... gồm'; điểm b) phía trước bị cắt đầu."],
+                "B": [2, "Trọn Điều 6 (khoản 1 và 2)."]},
+      "POS07": {"A": [1, "Khoản 3 Điều 21 bị cắt cuối ('...trách nhiệm bảo đảm an toàn hệ'); hiểu được ý chính nhưng thiếu 'theo từng cấp độ'."],
+                "B": [2, "Tiền tố 'Điều 21 (tiếp)' và trọn khoản 3."]},
+      "POS08": {"A": [2, "Tên Điều 34 và khoản 1 trọn vẹn tại vị trí; đầu chunk có mảnh vụn điểm a)-c) khoản 5 Điều 33 thiếu câu dẫn."],
+                "B": [2, "Trọn Điều 34 khoản 1-2."]},
+      "POS09": {"A": [1, "Câu dẫn khoản 3 Điều 43 '...còn phải có:' chỉ kèm điểm a) bị cắt; thiếu b), c)."],
+                "B": [2, "Tiền tố 'Điều 43 (tiếp)' và trọn khoản 3 (a-c)."]},
+      "POS10": {"A": [1, "Điểm a) khoản 5 Điều 52 bị cắt giữa cụm 'bảo vệ bí mật nhà'; có câu dẫn 'Bộ Công an có nhiệm vụ, quyền hạn' nên hiểu một phần."],
+                "B": [2, "Khoản 5 Điều 52 (a-d) trọn vẹn tại vị trí; đầu chunk có điểm e), g) của khoản 4 thiếu câu dẫn (ngoài vị trí chấm)."]}
+    }
+  },
+  "metadata": {
+    "rule": "Với mỗi bản ghi top-3 của 6 câu test x 3 cấu hình: đối chiếu source (file PDF), page (text chunk, bỏ tiền tố ngữ cảnh, có trên đúng trang PDF thô), year và law_number (theo trang 1 của văn bản), article (Điều đang có hiệu lực tại đầu chunk). 'Đủ và đúng' = đủ các trường document_id, source, page, year và tất cả đều đúng.",
+    "default": {"correct": true, "note": "Đã đối chiếu: text có trên đúng trang PDF, year/law_number khớp văn bản, article khớp heading Điều gần nhất phía trước trong PDF."},
+    "exceptions": {
+      "A|q21|3": {"correct": true, "note": "Bộ kiểm tự động báo article=5 nhưng chunk bắt đầu bằng câu cuối Điều 6 ('...trên không gian mạng.' trang 4) trùng nguyên văn với một đoạn Điều 5; đọc thủ công xác nhận article=6 là đúng (lỗi của bộ kiểm, không phải metadata)."}
+    }
+  },
+  "grounding": {
+    "scale": "0 = top-3 không có bằng chứng; 1 = có bằng chứng nhưng thiếu điều kiện/ngữ cảnh cần thiết; 2 = top-3 (xét chung) đủ để trả lời kèm điều kiện và truy được nguồn. Chấm trên evidence truy xuất, không phải câu trả lời của LLM. Cột out_of_scope ghi khi top-3 có chunk của văn bản khác với phạm vi người dùng chọn (câu filter).",
+    "labels": {
+      "q17": {"A": [2, "r2 (anm-2018 tr.19) chứa trọn khoản 1 Điều 29 liệt kê quyền của trẻ em."],
+              "B": [2, "r1 chứa tên Điều 29 và trọn khoản 1."],
+              "C": [2, "Như B (câu không có filter, C chạy không lọc)."]},
+      "q18": {"A": [2, "Không chunk nào tự chứa trọn evidence (Hit@3 tự động = 0) nhưng r1 có chủ thể + điều kiện chính và r3 có phần còn lại ('và thông báo... trừ trường hợp pháp luật có quy định khác'), hai chunk cùng trang 7 nối liền nhau nhờ overlap nên ghép lại đủ."],
+              "B": [2, "r1 chứa trọn khoản 3 Điều 18 gồm điều kiện, nghĩa vụ thông báo và ngoại lệ."],
+              "C": [2, "Như B."]},
+      "q19": {"A": [0, "Top-3 là Điều 16 khoản 7-9, Điều 26 khoản 2-3 và phần cuối Điều 40 + câu dẫn Điều 41; không chunk nào có nghĩa vụ khi lộ, lọt dữ liệu (điểm c khoản 1 Điều 41 ở trang 23)."],
+              "B": [2, "r1 (tiền tố Điều 41) chứa điểm c): lập tức đưa ra giải pháp ứng phó, thông báo người sử dụng và báo cáo lực lượng chuyên trách."],
+              "C": [2, "Như B."]},
+      "q20": {"A": [2, "r2 chứa điểm b) khoản 1 Điều 27 (định kỳ đánh giá, do tổ chức chuyên môn được chỉ định); chủ thể 'Chủ quản hệ thống thông tin quan trọng quốc gia' nằm ở cuối r1 liền kề."],
+              "B": [2, "r1 chứa trọn khoản 1 Điều 27 kèm tên Điều."],
+              "C": [2, "Như B."]},
+      "q21": {"A": [2, "r1 + r2 (cùng trang 3, nối liền nhờ overlap) chứa đủ hai nguyên tắc a), b) khoản 1 Điều 6; r3 là Điều 7 văn bản 2018 ngoài phạm vi người dùng chọn, có thể gây trộn nguyên tắc.", "out_of_scope"],
+              "B": [2, "r1 chứa trọn khoản 1 Điều 6; r2, r3 là Điều 7 văn bản 2018 ngoài phạm vi.", "out_of_scope"],
+              "C": [2, "r1 chứa trọn khoản 1 Điều 6; cả top-3 thuộc văn bản 2015 đúng phạm vi."]},
+      "q22": {"A": [2, "r2 chứa trọn định nghĩa khoản 1 Điều 10 (2018); nhưng r1 là định nghĩa 'hệ thống thông tin quan trọng quốc gia' của văn bản 2015 (ngoài phạm vi) đứng hạng 1, dễ dẫn tới trả lời nhầm.", "out_of_scope"],
+              "B": [2, "r1 chứa trọn định nghĩa khoản 1 Điều 10; r3 là Điều 26 văn bản 2015 ngoài phạm vi.", "out_of_scope"],
+              "C": [2, "r1 chứa trọn định nghĩa; cả top-3 thuộc văn bản 2018."]}
+    }
+  }
+}

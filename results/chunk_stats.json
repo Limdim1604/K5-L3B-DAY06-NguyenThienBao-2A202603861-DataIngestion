@@ -1,0 +1,43 @@
+{
+  "params": {
+    "A": {
+      "size": 500,
+      "overlap": 50
+    },
+    "B": {
+      "max_size": 1000,
+      "unit": "article > clause+points > paragraph"
+    }
+  },
+  "A": {
+    "chunks": 293,
+    "total_chars": 135469,
+    "mean_chars": 462.4,
+    "min": 75,
+    "p50": 497,
+    "p95": 499,
+    "max": 499,
+    "with_context_prefix": 0
+  },
+  "B": {
+    "chunks": 204,
+    "total_chars": 131904,
+    "mean_chars": 646.6,
+    "min": 112,
+    "p50": 660,
+    "p95": 1042,
+    "max": 1216,
+    "with_context_prefix": 114,
+    "dropped_heading_only": [
+      "anm-2018-p05: Chương II | BẢO VỆ AN NINH MẠNG ĐỐI VỚI HỆ THỐNG THÔNG TIN QUAN TRỌNG VỀ AN NINH QUỐC GIA",
+      "anm-2018-p11: Điều 17. Phòng, chống gián điệp mạng; bảo vệ thông tin thuộc bí mật nhà nước, bí mật công tác, bí mật kinh doanh, bí mật",
+      "anm-2018-p12: Điều 18. Phòng, chống hành vi sử dụng không gian mạng, công nghệ thông tin, phương tiện điện tử để vi phạm pháp luật về ",
+      "anm-2018-p13: Điều 19. Phòng, chống tấn công mạng",
+      "anm-2018-p16: Chương IV | HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG | Điều 23. Triển khai hoạt động bảo vệ an ninh mạng trong cơ quan nhà nước, tổ",
+      "anm-2018-p21: Điều 37. Trách nhiệm của Bộ Quốc phòng",
+      "attt-2015-p07: Điều 21. Phân loại cấp độ an toàn hệ thống thông tin",
+      "attt-2015-p10: Chương III | MẬT MÃ DÂN SỰ",
+      "attt-2015-p12: Điều 33. Sửa đổi, bổ sung, cấp lại, gia hạn, tạm đình chỉ và thu hồi Giấy phép kinh doanh sản phẩm, dịch vụ mật mã dân s"
+    ]
+  }
+}

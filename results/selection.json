@@ -1,0 +1,60 @@
+{
+  "selected": "C",
+  "steps": [
+    {
+      "criterion": "evidence_hit_at_3",
+      "values": {
+        "A": 11,
+        "B": 14,
+        "C": 15
+      },
+      "kept": [
+        "B",
+        "C"
+      ]
+    },
+    {
+      "criterion": "hit_at_1",
+      "values": {
+        "B": 11,
+        "C": 12
+      },
+      "kept": [
+        "B",
+        "C"
+      ]
+    },
+    {
+      "criterion": "filter_questions_hit_at_3",
+      "values": {
+        "B": 2,
+        "C": 3
+      },
+      "kept": [
+        "B",
+        "C"
+      ]
+    },
+    {
+      "criterion": "filter_compliance_top3",
+      "values": {
+        "B": 0,
+        "C": 3
+      },
+      "kept": [
+        "C"
+      ]
+    }
+  ],
+  "selected_at": "2026-11-14T03:35:18+00:00",
+  "questions_sha256": "78d322ff077a1dde95d1b3e815277e5589f4837242d1290bd8e6fe43021ab117",
+  "based_on": "dev only",
+  "rule": "see benchmark/README.md 'Tiêu chí chọn cấu hình'",
+  "test_evaluated": "2026-11-14T03:35:50+00:00",
+  "gold_revision": {
+    "at": "2026-11-14T04:10:02+00:00",
+    "questions_sha256": "847be3af6f093f49dd56b8d1112af73b656eefbdd6af94fa4ef509ca051cfe83",
+    "reselected_on_dev": "C",
+    "note": "q09/q13 evidence widened after evaluation; selection re-checked on dev, unchanged"
+  }
+}
